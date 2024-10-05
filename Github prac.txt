@@ -1,0 +1,364 @@
+Last login: Thu Oct  3 21:27:08 on console
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN/ENTER to continue or any other key to abort:
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % rew install git
+zsh: command not found: rew
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % 
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % brew install git
+
+zsh: command not found: brew
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % /opt/homebrew/bin/brew
+zsh: no such file or directory: /opt/homebrew/bin/brew
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % 
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git --version
+
+xcode-select: note: No developer tools were found, requesting install.
+If developer tools are located at a non-default location on disk, use `sudo xcode-select --switch path/to/Xcode.app` to specify the Xcode that you wish to use for command line developer tools, and cancel the installation dialog.
+See `man xcode-select` for more details.
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+==> Checking for `sudo` access (which may request your password)...
+Password:
+==> This script will install:
+/opt/homebrew/bin/brew
+/opt/homebrew/share/doc/homebrew
+/opt/homebrew/share/man/man1/brew.1
+/opt/homebrew/share/zsh/site-functions/_brew
+/opt/homebrew/etc/bash_completion.d/brew
+/opt/homebrew
+==> The following new directories will be created:
+/opt/homebrew/bin
+/opt/homebrew/etc
+/opt/homebrew/include
+/opt/homebrew/lib
+/opt/homebrew/sbin
+/opt/homebrew/share
+/opt/homebrew/var
+/opt/homebrew/opt
+/opt/homebrew/share/zsh
+/opt/homebrew/share/zsh/site-functions
+/opt/homebrew/var/homebrew
+/opt/homebrew/var/homebrew/linked
+/opt/homebrew/Cellar
+/opt/homebrew/Caskroom
+/opt/homebrew/Frameworks
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /usr/bin/install -d -o root -g wheel -m 0755 /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod ug=rwx /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /bin/chmod go-w /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown isaacguttentag /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /opt/homebrew/bin /opt/homebrew/etc /opt/homebrew/include /opt/homebrew/lib /opt/homebrew/sbin /opt/homebrew/share /opt/homebrew/var /opt/homebrew/opt /opt/homebrew/share/zsh /opt/homebrew/share/zsh/site-functions /opt/homebrew/var/homebrew /opt/homebrew/var/homebrew/linked /opt/homebrew/Cellar /opt/homebrew/Caskroom /opt/homebrew/Frameworks
+==> /usr/bin/sudo /usr/sbin/chown -R isaacguttentag:admin /opt/homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/isaacguttentag/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/isaacguttentag/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R isaacguttentag /Users/isaacguttentag/Library/Caches/Homebrew
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 283328, done.
+remote: Counting objects: 100% (17938/17938), done.
+remote: Compressing objects: 100% (657/657), done.
+remote: Total 283328 (delta 17408), reused 17626 (delta 17248), pack-reused 265390 (from 1)
+remote: Enumerating objects: 55, done.
+remote: Counting objects: 100% (34/34), done.
+remote: Total 55 (delta 34), reused 34 (delta 34), pack-reused 21 (from 1)
+==> Updating Homebrew...
+==> Downloading https://ghcr.io/v2/homebrew/portable-ruby/portable-ruby/blobs/sha256:e7340e4a1d7cc0f113686e461b93114270848cb14676e9037a1a2ff3b1a0ff32
+######################################################################### 100.0%
+==> Pouring portable-ruby-3.3.5.arm64_big_sur.bottle.tar.gz
+Warning: /opt/homebrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these commands in your terminal to add Homebrew to your PATH:
+    echo >> /Users/isaacguttentag/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/isaacguttentag/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ %  /Users/isaacguttentag/.zprofile
+zsh: permission denied: /Users/isaacguttentag/.zprofile
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ %  echo >> /Users/isaacguttentag/.zprofile
+    echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/isaacguttentag/.zprofile
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % brew install git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/manifests/2.46.2
+########################################################################################################## 100.0%
+==> Fetching dependencies for git: gettext and pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+########################################################################################################## 100.0%
+==> Fetching gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/blobs/sha256:7f005ca74e89d423f7be79f4c5eb7b646a19de23c23
+########################################################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.44
+########################################################################################################## 100.0%
+==> Fetching pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:c3f9e7a70ebc0986af6f0b7c69ac1495fdf4c7420ad83
+########################################################################################################## 100.0%
+==> Fetching git
+==> Downloading https://ghcr.io/v2/homebrew/core/git/blobs/sha256:6923b6e419c7786a7a11dce53e1ac4c8e6911006aaf96b1
+########################################################################################################## 100.0%
+==> Installing dependencies for git: gettext and pcre2
+==> Installing git dependency: gettext
+==> Downloading https://ghcr.io/v2/homebrew/core/gettext/manifests/0.22.5
+Already downloaded: /Users/isaacguttentag/Library/Caches/Homebrew/downloads/447e45b77bb47ede0377f7eab1863825298ecaaaeed0bbd84aca3bd300b00508--gettext-0.22.5.bottle_manifest.json
+==> Pouring gettext--0.22.5.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gettext/0.22.5: 2,044 files, 24.3MB
+==> Installing git dependency: pcre2
+==> Downloading https://ghcr.io/v2/homebrew/core/pcre2/manifests/10.44
+Already downloaded: /Users/isaacguttentag/Library/Caches/Homebrew/downloads/22ed791461c5bf400adde8c3b432c1230866aa1db3c5cb81e06a6ff21cac96ee--pcre2-10.44.bottle_manifest.json
+==> Pouring pcre2--10.44.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pcre2/10.44: 237 files, 6.3MB
+==> Installing git
+==> Pouring git--2.46.2.arm64_sequoia.bottle.tar.gz
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> Summary
+🍺  /opt/homebrew/Cellar/git/2.46.2: 1,680 files, 54MB
+==> Running `brew cleanup git`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> git
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+zsh completions and functions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git --version
+git version 2.39.3 (Apple Git-146)
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git config --global user.name "iguttentag"
+git config --global user.email "iguttentag@wesleyan.edu"
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git config --global init.defaultBranch main
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git config --global color.ui auto
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git config --global pull.rebase false
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % git config --get user.name
+git config --get user.email
+
+iguttentag
+iguttentag@wesleyan.edu
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % echo .DS_Store >> ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % ls ~/.ssh/id_ed25519.pub
+
+ls: /Users/isaacguttentag/.ssh/id_ed25519.pub: No such file or directory
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % ssh-keygen -t ed25519
+
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/isaacguttentag/.ssh/id_ed25519): 
+Created directory '/Users/isaacguttentag/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/isaacguttentag/.ssh/id_ed25519
+Your public key has been saved in /Users/isaacguttentag/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:FOlwzQCSKDX+GDTcjqfta+8MRbjTqa6KhXiWlDRb/C4 isaacguttentag@Isaacs-MacBook-Air-4.local
+The key's randomart image is:
++--[ED25519 256]--+
+| o=o....o=       |
+|.oo+oo. o.o      |
+| .=o+ .+.        |
+| ..Oo= o.        |
+|  =++ = S        |
+|.o...=           |
+|o =.E .          |
+|.+ .o+           |
+|o..oo++          |
++----[SHA256]-----+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % cat ~/.ssh/id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDY2uAvnPrUzONWa3/cVbw0e9mPgBeM5TpGXa1lkcy+e isaacguttentag@Isaacs-MacBook-Air-4.local
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % cat ~/.ssh/id_ed25519.pub
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDY2uAvnPrUzONWa3/cVbw0e9mPgBeM5TpGXa1lkcy+e isaacguttentag@Isaacs-MacBook-Air-4.local
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % ssh -T git@github.com
+# Attempts to ssh to GitHub
+The authenticity of host 'github.com (140.82.114.3)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Hi iguttentag! You've successfully authenticated, but GitHub does not provide shell access.
+zsh: command not found: #
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % mkdir repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % cd..
+zsh: command not found: cd..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 ~ % cd ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 /Users % cd ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % repos
+zsh: command not found: repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % mkdir repos 
+mkdir: repos: Read-only file system
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd repos
+cd: no such file or directory: repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd repos/
+cd: no such file or directory: repos/
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % ..
+zsh: permission denied: ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % ..
+zsh: permission denied: ..
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % pwd
+/
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % mkdir repos
+mkdir: repos: Read-only file system
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd repos
+cd: no such file or directory: repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % mkdir "repos"
+mkdir: repos: Read-only file system
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd Documents
+cd: no such file or directory: Documents
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd documents
+cd: no such file or directory: documents
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % pwd
+/
+(base) isaacguttentag@Isaacs-MacBook-Air-4 / % cd Users
+(base) isaacguttentag@Isaacs-MacBook-Air-4 /Users % /Users/isaacguttentag/Documents  
+zsh: permission denied: /Users/isaacguttentag/Documents
+(base) isaacguttentag@Isaacs-MacBook-Air-4 /Users % cd /Users/isaacguttentag/Documents
+(base) isaacguttentag@Isaacs-MacBook-Air-4 Documents % mkdir repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 Documents % cd repos
+(base) isaacguttentag@Isaacs-MacBook-Air-4 repos % git clone git@github.com:iguttentag/git_test.git
+Cloning into 'git_test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+(base) isaacguttentag@Isaacs-MacBook-Air-4 repos % cd git_test
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git remote -v
+origin	git@github.com:iguttentag/git_test.git (fetch)
+origin	git@github.com:iguttentag/git_test.git (push)
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % touch hello_world.txt
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	hello_world.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git add hello_world.txt
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   hello_world.txt
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git ommit -m "Add hello_world.txt"     
+git: 'ommit' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   hello_world.txt
+
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git commit -m "Add hello_world.txt"
+[main c6a7272] Add hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % git log
+commit c6a7272f4d3f1cf3730bed6222dad2c0489d455a (HEAD -> main)
+Author: iguttentag <iguttentag@wesleyan.edu>
+Date:   Sat Oct 5 14:18:18 2024 -0400
+
+    Add hello_world.txt
+
+commit 85f429469efae9e664940d09d32e6a22cb492c91 (origin/main, origin/HEAD)
+Author: iguttentag <iguttentag@wesleyan.edu>
+Date:   Sat Oct 5 14:09:09 2024 -0400
+
+    Initial commit
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % code ,
+zsh: command not found: code
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % code .
+zsh: command not found: code
+(base) isaacguttentag@Isaacs-MacBook-Air-4 git_test % nano README.md
+
+  UW PICO 5.09                                       File: README.md                                        Modified  
+
+"Hello Odin!"# git_test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help        ^O WriteOut        ^R Read File       ^Y Prev Pg         ^K Cut Text        ^C Cur Pos         
+^X Exit            ^J Justify         ^W Where is        ^V Next Pg         ^U UnCut Text      ^T To Spell        
